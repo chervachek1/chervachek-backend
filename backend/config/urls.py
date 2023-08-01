@@ -8,12 +8,14 @@ from rest_framework_swagger.views import get_swagger_view
 
 from posts.views import PostViewSet
 from videos.views import VideoViewSet
+from files.views import FileViewSet
 
 schema_view = get_swagger_view(title='Chervachek API')
 
 router = DefaultRouter()
 router.register(r'posts', PostViewSet, basename='posts')
 router.register(r'videos', VideoViewSet, basename='videos')
+router.register(r'files', FileViewSet, basename='files')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
