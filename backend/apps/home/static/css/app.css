@@ -674,7 +674,7 @@ h1 {
 .links .twitter,
 .links .instagram,
 .links .tiktok,
-.links .upwork {
+.links .udemy {
   display: inline-block;
   margin: 10px;
   -webkit-transition: 1s;
@@ -704,7 +704,7 @@ h1 {
 .links .twitter:hover,
 .links .instagram:hover,
 .links .tiktok:hover,
-.links .upwork:hover {
+.links .udemy:hover {
   -webkit-transform: scale(1.1, 1.1);
           transform: scale(1.1, 1.1);
   -webkit-transform: rotate(360deg);
@@ -734,8 +734,8 @@ h1 {
 .links .tiktok {
   background-color: #000;
 }
-.links .upwork {
-  background-color: #a435f0;
+.links .udemy {
+  background-color: #0caa00;
 }
 
 @-webkit-keyframes bounce {
