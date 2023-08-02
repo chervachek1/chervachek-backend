@@ -52,7 +52,8 @@ LOCAL_APPS = [
     'users',
     'posts',
     'videos',
-    'files'
+    'files',
+    'home'
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY + LOCAL_APPS
@@ -136,8 +137,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-STATIC_URL = '/static/'
-MEDIA_URL = '/media/'
+STATIC_URL = 'static/'
+MEDIA_URL = 'media/'
 
 STATIC_ROOT = os.path.join(STATIC_DIR, 'static/')
 MEDIA_ROOT = os.path.join(STATIC_DIR, 'media/')
